@@ -1,0 +1,17 @@
+.slider {
+	display : flex;
+	position: relative;
+	z-index : 1300;
+
+	.cards {
+		width   : 1135px;
+		margin  : 0 auto;
+		overflow: hidden;
+		z-index : 13;
+
+		.cards__wrap {
+			display: flex;
+			width  : 2580px;
+		}
+	}
+}

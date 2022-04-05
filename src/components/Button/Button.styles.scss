@@ -1,0 +1,13 @@
+.button {
+	width  : 48px;
+	height : 48px;
+	z-index: 1;
+
+	&:hover {
+		cursor: pointer;
+	}
+}
+
+.transform {
+	transform: rotate(180deg);
+}

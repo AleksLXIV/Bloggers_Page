@@ -1,0 +1,65 @@
+.buttom {
+	width: 20%;
+
+	.posts__img {
+		position: relative;
+
+		.posts__b {
+			position : absolute;
+			top      : 150px;
+			left     : 70px;
+			display  : flex;
+			flex-wrap: wrap;
+			width    : 200px;
+			height   : 200px;
+
+			.b {
+				width           : 4px;
+				height          : 4px;
+				border-radius   : 50%;
+				margin-right    : 9px;
+				background-color: #FE8700;
+			}
+		}
+
+		.posts__ellipse {
+			position: absolute;
+			top     : 339px;
+			left    : 65px;
+		}
+	}
+}
+
+.top {
+	width   : 174px;
+	height  : 330px;
+	overflow: hidden;
+	position: absolute;
+	top     : -55px;
+	right   : 50px;
+
+	.posts__img {
+		position: relative;
+
+		.posts__b {
+			display  : flex;
+			flex-wrap: wrap;
+			width    : 200px;
+			height   : 200px;
+
+			.b {
+				width           : 4px;
+				height          : 4px;
+				border-radius   : 50%;
+				margin-right    : 9px;
+				background-color: #FE8700;
+			}
+		}
+
+		.posts__ellipse {
+			position: absolute;
+			top     : 120px;
+			left    : 35px;
+		}
+	}
+}

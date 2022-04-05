@@ -1,0 +1,28 @@
+.p__wrapper {
+	width      : 75%;
+	margin-left: auto;
+	position   : relative;
+
+	.post__items {
+		padding-left: 140px;
+
+		h2 {
+			padding-bottom: 10px;
+			font-weight   : 600;
+			font-size     : 48px;
+			line-height   : 48px;
+			text-align    : left;
+		}
+
+		&::before {
+			content   : '';
+			display   : block;
+			position  : absolute;
+			top       : 10px;
+			left      : 0;
+			width     : 85px;
+			height    : 75px;
+			background: url('./../../images/before.svg') 0 0/contain no-repeat;
+		}
+	}
+}
